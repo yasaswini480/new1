@@ -1,0 +1,85 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.card
+{
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 450px;
+    box-shadow: 5px 5px 10px;
+    color: gray;
+    align-items: center;
+}
+.card > Button
+{
+    margin-left: 40px;
+    justify-content: space-between;
+    border: none;
+}
+h3
+{
+    color: purple;
+    font-size: larger;
+    margin-top: 10px;
+    text-align: center;
+}
+p
+{
+    color: purple;
+    font-size: larger;
+    margin-top: 10px;
+    text-align: center;
+}
+h2
+{
+    color: purple;
+    margin-top: 10px;
+    font-size: larger;
+    text-align: center;
+}
+.but1
+{
+    font-size: 15px;
+    padding: 12px;
+    margin-top: 20px;
+    color: purple;
+    margin-left: 90px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    background-color: lightsalmon;
+    width: 100px;
+    height: 72px;
+    text-decoration-line: none;    
+}
+.but2
+{
+    font-size: 14px;
+    padding: 7px;
+    margin-top: 20px;
+    color: purple;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    background-color: lightgreen;
+    width: 90px;
+    height: 40px;        
+}
+.card > img
+{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+.book
+{
+    list-style: none;
+}
+
